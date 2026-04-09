@@ -15,7 +15,8 @@ def __str__(self):
 Candidatos = []
 
 continua = 0
-while continua == 0
+while continua == 0:
+  
 nome = input("informe o nome do candidato: ")
 nota_port = float(input("informe a nota de portugues: "))
 nota_mat = float(input("informe a nota de matematica: "))
